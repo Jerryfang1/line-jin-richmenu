@@ -148,7 +148,7 @@ def main():
         ).rich_menu_id
 
         # 3. Upload image to rich menu A
-        with open('./public/richmenu-a.png', 'rb') as image:
+        with open('./public/1-p.jpg', 'rb') as image:
             line_bot_blob_api.set_rich_menu_image(
                 rich_menu_id=rich_menu_a_id,
                 body=bytearray(image.read()),
@@ -183,7 +183,7 @@ def main():
         ).rich_menu_id
 
         # 5. Upload image to rich menu B
-        with open('./public/richmenu-b.png', 'rb') as image:
+        with open('./public/2-p.jpg', 'rb') as image:
             line_bot_blob_api.set_rich_menu_image(
                 rich_menu_id=rich_menu_b_id,
                 body=bytearray(image.read()),
