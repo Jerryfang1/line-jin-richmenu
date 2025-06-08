@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: richmenu-bot
+    name: line-jin-richmenu
     env: python
     buildCommand: ""
-    startCommand: python main.py
+    startCommand: python3 main.py
     plan: free
     envVars:
       - key: LINE_CHANNEL_ACCESS_TOKEN
