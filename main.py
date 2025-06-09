@@ -218,7 +218,7 @@ def main():
             line_bot_blob_api.set_rich_menu_image(
                 rich_menu_id=rich_menu_a_id,
                 body=bytearray(image.read()),
-                _headers={'Content-Type': 'image/jpg'}
+                _headers={'Content-Type': 'image/png'}
             )
 
 # 4. Create rich menu B (richmenu-b)
@@ -253,7 +253,7 @@ def main():
             line_bot_blob_api.set_rich_menu_image(
                 rich_menu_id=rich_menu_b_id,
                 body=bytearray(image.read()),
-                _headers={'Content-Type': 'image/jpg'}
+                _headers={'Content-Type': 'image/png'}
             )
 
 # 6. Create rich menu C (richmenu-c)
@@ -288,7 +288,7 @@ def main():
             line_bot_blob_api.set_rich_menu_image(
                 rich_menu_id=rich_menu_c_id,
                 body=bytearray(image.read()),
-                _headers={'Content-Type': 'image/jpg'}
+                _headers={'Content-Type': 'image/png'}
             )
 
         
