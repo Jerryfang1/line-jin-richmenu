@@ -205,7 +205,7 @@ def main():
                               height=rich_menu_object_a['size']['height']),
             selected=rich_menu_object_a['selected'],
             name=rich_menu_object_a['name'],
-            chat_bar_text=rich_menu_object_a['name'],
+            chat_bar_text=rich_menu_object_a['chatBarText'],
             areas=areas
         )
 
@@ -240,7 +240,7 @@ def main():
                               height=rich_menu_object_b['size']['height']),
             selected=rich_menu_object_b['selected'],
             name=rich_menu_object_b['name'],
-            chat_bar_text=rich_menu_object_b['name'],
+            chat_bar_text=rich_menu_object_b['chatBarText'],
             areas=areas
         )
 
@@ -275,7 +275,7 @@ def main():
                               height=rich_menu_object_c['size']['height']),
             selected=rich_menu_object_c['selected'],
             name=rich_menu_object_c['name'],
-            chat_bar_text=rich_menu_object_c['name'],
+            chat_bar_text=rich_menu_object_c['chatBarText'],
             areas=areas
         )
 
