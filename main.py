@@ -111,8 +111,9 @@ def rich_menu_object_b_json():
                 "height": 528
                 },
                 "action": {
-                    "type": "message",
-                    "text": "金價查詢"
+                    "type": "postback",
+                    "label": "查詢金價",
+                    "data": "action=gold"
             }
             }
         ]
