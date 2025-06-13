@@ -102,6 +102,18 @@ def rich_menu_object_b_json():
                     "richMenuAliasId": "richmenu-alias-c",
                     "data": "richmenu-changed-to-c"
                 }
+            },
+            {
+                "bounds": {
+                "x": 1748,
+                "y": 1158,
+                "width": 752,
+                "height": 528
+                },
+                "action": {
+                    "type": "message",
+                    "text": "金價查詢"
+            }
             }
         ]
     }
