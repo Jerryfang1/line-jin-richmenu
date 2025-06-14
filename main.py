@@ -19,7 +19,7 @@ from linebot.v3.messaging import (
     PostbackAction,
 )
 
-from linebot.v3.exceptions import ApiException
+from linebot.v3.messaging.exceptions import ApiException
 
 channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
 if channel_access_token is None:
