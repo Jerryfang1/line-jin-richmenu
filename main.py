@@ -14,7 +14,7 @@ from linebot.v3.messaging import (
     RichMenuBounds,
     URIAction,
     RichMenuSwitchAction,
-    CreateRichMenuAliasRequest
+    CreateRichMenuAliasRequest,
     UpdateRichMenuAliasRequest,
     PostbackAction,
 )
