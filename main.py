@@ -53,11 +53,10 @@ def create_or_update_alias(api, alias_id, menu_id):
         ))
     except ApiException as e:
         if "409" in str(e) or "conflict" in str(e).lower():
-            update_request = UpdateRichMenuAliasRequest(
-                rich_menu_alias_id=alias_id,
-                rich_menu_id=menu_id
+            api.update_rich_menu_alias(
+                alias_id,
+                UpdateRichMenuAliasRequest(rich_menu_id=menu_id)
             )
-            api.update_rich_menu_alias(update_request)
         else:
             raise
 
