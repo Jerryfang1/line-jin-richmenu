@@ -20,6 +20,7 @@ from linebot.v3.messaging import (
 )
 
 from linebot.v3.messaging.exceptions import ApiException
+from linebot.v3.messaging.models import UpdateRichMenuAliasRequest
 
 channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
 if channel_access_token is None:
@@ -51,11 +52,12 @@ def create_or_update_alias(api, alias_id, menu_id):
             rich_menu_id=menu_id
         ))
     except ApiException as e:
-        if "conflict" in str(e):
-            api.update_rich_menu_alias(UpdateRichMenuAliasRequest(
+        if "409" in str(e) or "conflict" in str(e).lower():
+            update_request = UpdateRichMenuAliasRequest(
                 rich_menu_alias_id=alias_id,
                 rich_menu_id=menu_id
-            ))
+            )
+            api.update_rich_menu_alias(update_request)
         else:
             raise
 
