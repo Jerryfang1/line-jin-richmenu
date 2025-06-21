@@ -52,12 +52,10 @@ def create_or_update_alias(api, alias_id, menu_id):
         ))
     except ApiException as e:
         if "conflict" in str(e):
-            api.update_rich_menu_alias(
+            api.update_rich_menu_alias(UpdateRichMenuAliasRequest(
                 rich_menu_alias_id=alias_id,
-                uudate_rich_menu_alias_request=UpdateRichMenuAliasRequest(
                 rich_menu_id=menu_id
-                )
-            )
+            ))
         else:
             raise
 
