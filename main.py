@@ -147,7 +147,7 @@ def rich_menu_object_b_json():
                 "action": {
                     "type": "postback",
                     "label": "查詢金價",
-                    "data": "action=gold"
+                    "data": "action=gold",
                     "displayText": "查詢今日金價"
             }
             }
