@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: line-jin-richmenu
-    env: python
-    startCommand: python3 main.py
-    plan: free
-    envVars:
-      - key: LINE_CHANNEL_ACCESS_TOKEN
-        value: ""
