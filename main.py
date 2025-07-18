@@ -35,6 +35,7 @@ rich_menus = [
         "areas": [
             {"x": 0, "y": 0, "width": 754, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-a", "data": "richmenu-changed-to-a"}},
             {"x": 1758, "y": 0, "width": 742, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-c", "data": "richmenu-changed-to-c"}},
+            {"x": 1758, "y": 220, "width": 752, "height": 513, "action": {"type": "uri", "uri": "https://line.me/R/app/2007349658-zme8568w"}},
             {"x": 1748, "y": 1158, "width": 752, "height": 528, "action": {"type": "postback", "label": "查詢金價", "data": "action=gold", "displayText": "查詢今日金價"}},
         ]
     },
