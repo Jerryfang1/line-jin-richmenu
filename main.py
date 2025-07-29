@@ -31,7 +31,7 @@ rich_menus = [
         "alias": "richmenu-alias-b",
         "name": "richmenu-b",
         "chatBarText": "高價黃金回收",
-        "image": "p-02-02.png",
+        "image": "P-02-02.png",
         "areas": [
             {"x": 0, "y": 0, "width": 754, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-a", "data": "richmenu-changed-to-a"}},
             {"x": 1758, "y": 0, "width": 742, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-c", "data": "richmenu-changed-to-c"}},
