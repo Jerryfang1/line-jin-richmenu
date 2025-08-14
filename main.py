@@ -110,7 +110,7 @@ def main():
             with open(f"./public/{menu['image']}", 'rb') as image:
                 line_bot_blob_api.set_rich_menu_image(
                     rich_menu_id=menu_id,
-                    body=bytearray(image.read()),
+                    body=image.read(),  # ✅ 改成 bytes
                     _headers={'Content-Type': 'image/png'}
                 )
             create_or_update_alias(line_bot_api, menu["alias"], menu_id)
@@ -121,6 +121,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
