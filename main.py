@@ -20,7 +20,7 @@ rich_menus = [
     {
         "alias": "richmenu-alias-a",
         "name": "richmenu-a",
-        "chatBarText": "精緻客製化彌月禮品",
+        "chatBarText": "黃金高價回收",
         "image": "p-01.png",
         "areas": [
             {"x": 843, "y": 0, "width": 818, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-b", "data": "richmenu-changed-to-b"}},
@@ -30,7 +30,7 @@ rich_menus = [
     {
         "alias": "richmenu-alias-b",
         "name": "richmenu-b",
-        "chatBarText": "高價黃金回收",
+        "chatBarText": "黃金高價回收",
         "image": "p-02.png",
         "areas": [
             {"x": 0, "y": 0, "width": 754, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-a", "data": "richmenu-changed-to-a"}},
@@ -43,7 +43,7 @@ rich_menus = [
     {
         "alias": "richmenu-alias-c",
         "name": "richmenu-c",
-        "chatBarText": "精美飾品販售中",
+        "chatBarText": "黃金高價回收",
         "image": "p-03.png",
         "areas": [
             {"x": 0, "y": 225, "width": 755, "height": 500, "action": {"type": "uri", "uri": "https://www.instagram.com/jinyue.gold/"}},
@@ -121,5 +121,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
