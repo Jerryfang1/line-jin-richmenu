@@ -20,11 +20,11 @@ rich_menus = [
     {
         "alias": "richmenu-alias-a",
         "name": "richmenu-a",
-        "chatBarText": "黃金高價回收",
+        "chatBarText": "時尚創意黃金飾品",
         "image": "p-01.png",
         "areas": [
-            {"x": 843, "y": 0, "width": 818, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-b", "data": "richmenu-changed-to-b"}},
-            {"x": 1758, "y": 0, "width": 742, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-c", "data": "richmenu-changed-to-c"}},
+            {"x": 903, "y": 0, "width": 907, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-b", "data": "richmenu-changed-to-b"}},
+            {"x": 1811, "y": 0, "width": 695, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-c", "data": "richmenu-changed-to-c"}},
         ]
     },
     {
@@ -121,6 +121,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
