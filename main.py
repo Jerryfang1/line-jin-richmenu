@@ -27,7 +27,7 @@ rich_menus = [
             {"x": 1811, "y": 0, "width": 695, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-c", "data": "richmenu-changed-to-c"}},
             {"x": 1173, "y": 1021, "width": 641, "height": 132, "action": {"type": "postback", "label": "本日金價", "data": "action=gold_today", "displayText": "本日金價"}},
             {"x": 2025, "y": 170, "width": 432, "height": 431, "action": {"type": "uri", "uri": "https://jinyuegold.com/product-category/gold2/rings/"}},
-            {"x": 2025, "y": 695, "width": 432, "height": 431, "action": {"type": "https://jinyuegold.com/product-category/gold2/charm/"}},
+            {"x": 2025, "y": 695, "width": 432, "height": 431, "action": {"type": "uri", "uri": "https://jinyuegold.com/product-category/gold2/charm/"}},
             {"x": 2025, "y": 1218, "width": 432, "height": 431, "action": {"type": "uri", "uri": "https://jinyuegold.com/product-category/gold2/gift/"}},
         ]
     },
@@ -128,6 +128,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
