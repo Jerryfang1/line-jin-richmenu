@@ -51,10 +51,12 @@ rich_menus = [
         "chatBarText": "黃金高價回收",
         "image": "p-03.png",
         "areas": [
-            {"x": 0, "y": 225, "width": 755, "height": 500, "action": {"type": "uri", "uri": "https://www.instagram.com/jinyue.gold/"}},
-            {"x": 0, "y": 725, "width": 755, "height": 460, "action": {"type": "uri", "uri": "https://www.facebook.com/profile.php?id=61575298454165"}},
-            {"x": 0, "y": 0, "width": 754, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-a", "data": "richmenu-changed-to-a"}},
-            {"x": 847, "y": 0, "width": 818, "height": 216, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-b", "data": "richmenu-changed-to-b"}},
+            {"x": 0, "y": 0, "width": 688, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-a", "data": "richmenu-changed-to-a"}},
+            {"x": 690, "y": 0, "width": 900, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-b", "data": "richmenu-changed-to-b"}},
+            {"x": 2025, "y": 170, "width": 432, "height": 431, "action": {"type": "uri", "uri": "https://www.instagram.com/jinyue.gold/"}},
+            {"x": 2025, "y": 695, "width": 432, "height": 431, "action": {"type": "uri", "uri": "https://jinyuegold.com/"}},
+            {"x": 2025, "y": 1218, "width": 432, "height": 431, "action": {"type": "uri", "uri": "https://jinyuegold.com/"}},
+
         ]
     }
 ]
@@ -126,6 +128,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
