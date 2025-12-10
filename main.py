@@ -48,7 +48,7 @@ rich_menus = [
     {
         "alias": "richmenu-alias-c",
         "name": "richmenu-c",
-        "chatBarText": "黃金高價回收",
+        "chatBarText": "私訊小編享折扣價",
         "image": "p-03.png",
         "areas": [
             {"x": 0, "y": 0, "width": 688, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-a", "data": "richmenu-changed-to-a"}},
@@ -128,6 +128,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
