@@ -114,7 +114,7 @@ def main():
             )
 
             menu_id = line_bot_api.create_rich_menu(rich_menu_request=request).rich_menu_id
-            with open(f"./public/{menu['image']}", 'rb') as image:
+            with open(f"./{menu['image']}", 'rb') as image:
                 line_bot_blob_api.set_rich_menu_image(
                     rich_menu_id=menu_id,
                     body=bytearray(image.read()),
@@ -128,6 +128,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
