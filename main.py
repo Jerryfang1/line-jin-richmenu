@@ -40,7 +40,7 @@ rich_menus = [
             {"x": 0, "y": 0, "width": 688, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-a", "data": "richmenu-changed-to-a"}},
             {"x": 1807, "y": 0, "width": 693, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-c", "data": "richmenu-changed-to-c"}},
             {"x": 1693, "y": 1238, "width": 641, "height": 135, "action": {"type": "postback", "label": "回收流程", "data": "action=recycle", "displayText": "回收流程"}},
-            {"x": 45, "y": 200, "width": 432, "height": 431, "action": {"type": "postback", "label": "今日金價", "data": "action=gold", "displayText": "今日金價"}},
+            {"x": 45, "y": 200, "width": 432, "height": 431, "action": {"type": "postback", "label": "黃金回收", "data": "action=gold", "displayText": "黃金回收"}},
             {"x": 45, "y": 710, "width": 432, "height": 431, "action": {"type": "postback", "label": "K金回收", "data": "action=kgoldrecycle", "displayText": "K金回收"}},
             {"x": 45, "y": 1219, "width": 432, "height": 431, "action": {"type": "postback", "label": "回收流程", "data": "action=recycle", "displayText": "回收流程"}},
         ]
@@ -128,6 +128,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
