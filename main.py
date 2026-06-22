@@ -20,7 +20,7 @@ rich_menus = [
     {
         "alias": "richmenu-alias-a",
         "name": "richmenu-a",
-        "chatBarText": "時尚創意黃金飾品",
+        "chatBarText": "商品全面出清工資五折",
         "image": "p-01.png",
         "areas": [
             {"x": 903, "y": 0, "width": 907, "height": 145, "action": {"type": "richmenuswitch", "richMenuAliasId": "richmenu-alias-b", "data": "richmenu-changed-to-b"}},
